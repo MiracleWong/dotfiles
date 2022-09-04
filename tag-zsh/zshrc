@@ -131,3 +131,6 @@ export PATH=$GOBIN:$PATH
 
 # 关闭Homebrew自动更新
 export HOMEBREW_NO_AUTO_UPDATE=true
+
+alias l="exa -l -h"
+alias la="exa -la -h"
