@@ -91,7 +91,7 @@ caskapps=(
   sogouinput
   google-chrome
   visual-studio-code
-  useage
+  usage
   switchhosts
   # tencent-lemon
   # wechat
