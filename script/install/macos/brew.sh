@@ -63,6 +63,7 @@ apps=(
   gh
   imagemagick
   restic
+  rcm
 )
 
 brew install "${apps[@]}"
