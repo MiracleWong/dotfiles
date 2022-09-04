@@ -15,6 +15,13 @@ if test ! $(which brew); then
   /bin/bash brew-install/install.sh
   rm -rf brew-install
   # ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  if [ "x86_64" = `uname -m` ]; then
+    echo "uname -m x86_64"
+  elif [ "arm64" = `uname -m` ]; then
+    echo "uname -m arm64"
+  else
+    echo "Hello World"
+  fi
   export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
   export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
   for tap in core cask{,-fonts,-drivers,-versions} command-not-found; do
@@ -35,7 +42,7 @@ apps=(
   tree
   wget
   curl
-  mycil
+  mycli
   httpie
   lftp
   lrzsz
