@@ -90,7 +90,6 @@ caskapps=(
   iterm2
   sogouinput
   google-chrome
-  neovim
   visual-studio-code
   useage
   switchhosts
