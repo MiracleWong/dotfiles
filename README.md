@@ -12,8 +12,8 @@ xcode-select --install
 ## 2. Install
 ```
 cd ~
-git clone https://github.com/coderzh/dotfiles .dotfiles
-cd .dotfile; sh setup.sh
+git clone https://github.com/coderzh/dotfiles dotfiles
+cd dotfile; sh setup.sh
 ```
 
 ## 3. rcup .rcrc file
