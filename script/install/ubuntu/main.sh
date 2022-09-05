@@ -13,6 +13,6 @@ execute_commands "${UBUNTU_COMMANDS[@]}"
 
 print_in_purple "\n • APT-GET\n\n"
 update
-upgrade
+#upgrade
 install_all_packages ${APT_GET_PACKAGES[@]}
 autoremove
