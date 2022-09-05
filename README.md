@@ -12,13 +12,13 @@ xcode-select --install
 ## 2. Install
 ```
 cd ~
-git clone https://github.com/coderzh/dotfiles .dotfiles
-cd .dotfile; sh setup.sh
+git clone https://github.com/coderzh/dotfiles dotfiles
+cd dotfile; sh setup.sh
 ```
 
 ## 3. rcup .rcrc file
 ```
-rcup -t rcm
+env RCRC=$HOME/dotfiles/tag-rcm/rcrc rcup -t rcm
 ```
 
 ## 4. rcup other config files
