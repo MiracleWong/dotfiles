@@ -23,7 +23,7 @@ main() {
     print_in_purple "\n • NPM\n\n"
 
     execute \
-        "npm config set registry https://registry.npm.taobao.org" \
+        "npm config set registry https://registry.npmmirror.com" \
         "set taobao npm source"
 
     install_npm_packages ${NPM_PACKAGES[@]}
