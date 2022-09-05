@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# 需要全面修改，目前自己使用的是minpac
 cd "$(dirname "${BASH_SOURCE[0]}")" \
     && . "../utils.sh"
 
